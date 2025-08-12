@@ -26,5 +26,10 @@
       </dependency>
    </dependencies>
    </dependencyManagement>
+   <scm>
+      <connection>scm:git:ssh://git.css.ch:7999/playground/missingtab.git</connection>
+      <developerConnection>scm:git:ssh://@git.css.ch:7999/playground/missingtab.git</developerConnection>
+      <tag>HEAD</tag>
+   </scm>
 
 </project>
