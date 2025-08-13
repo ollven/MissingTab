@@ -4,7 +4,7 @@
 
    <groupId>org.example</groupId>
    <artifactId>MissingTab</artifactId>
-   <version>1.3</version>
+   <version>1.4-SNAPSHOT</version>
    <packaging>pom</packaging>
    <modules>
       <module>module</module>
@@ -28,7 +28,7 @@
   <connection>scm:git:https://github.com/ollven/MissingTab.git</connection>
   <developerConnection>scm:git:https://github.com/ollven/MissingTab.git</developerConnection>
   <url>https://github.com/ollven/MissingTab</url>
-  <tag>MissingTab-1.3</tag>
+  <tag>HEAD</tag>
 </scm>
 
 </project>
