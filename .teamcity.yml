@@ -1,0 +1,14 @@
+jobs:
+  Job1:
+    name: Job 1
+    steps:
+      - type: script
+        script-content: ls
+      - type: script
+        working-directory: Checkout2VCS
+        script-content: ls
+    repositories:
+      - TW99006_HttpsGithubComOllvenCheckout2VCSRefsHeadsMain1:
+          enabled: true
+          path: Checkout2VCS
+    allow-reuse: false
